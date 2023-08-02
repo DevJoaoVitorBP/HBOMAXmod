@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+:root {
+  --primary-color: #020228;
+  --secondary-color: #ff00e5;
+  --tertiary-color: #b535f6;
+  --btn-bg-color-gradient: linear-gradient(
+    45deg,
+    #9b34ef 0%,
+    #490cb0 20%,
+    transparent 50%
+  );
+  --btn-link-bg-color: #fff;
+  --btn-link-color: #000;
+  --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
+  --divider-bg-color: linear-gradient(
+    90deg,
+    #5516ba,
+    rgba(255, 0, 229, 0.5) 80%
+  );
+  --nav-bg-color: rgba(0, 0, 0, 0.3);
+  --text-color: #fff;
+  --link-color: #9e86ff;
+  --form-bg-color: rgba(211, 211, 211, 0.06);
+  --form-field-bg-color: rgba(0, 0, 0, 0.2);
+  --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
+  --form-field-placeholder: rgba(255, 255, 255, 0.7);
+  --form-field-error: rgb(255, 76, 76);
+
+  scroll-behavior: smooth;
+}
+
+
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+[class="body"]{
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+a{
+  text-decoration: none;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  color: var(--text-color);
+}
+
+h3{
+  font-size: 30px;
+}
+
+section {
+  scroll-margin-top: 80px;
+  width: 100%;
+}
+
+.menu{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: var(--nav-bg-color);
+}
+.menu_interacao{
+    position: relative;
+    display: inline-flex;
+    font-size: 14px;
+    font-family: 'Raleway' sans-serif;
+    gap: 24px;
+}
+
+
+.divisor{
+  width: 70%;
+  max-width: 900px;
+  height: 5px;
+  background: var(--divider-bg-color);
+  margin-top: 40px;
+}
+
+section{
+  scroll-margin-top: 80px ;
+}
+
+.cards{
+  background: url(/assets/images/background-movies-series.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #020228;
+  
+}
+
+.cards2{
+
+  background-size: cover;
+  position: relative;
+  background-color: #020228;
+  color: var(--text-color);
+  
+
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.subs_card{
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.card_sub::marker{
+  content: '✔';
+  font-size: 15px;
+  color: limegreen;
+  line-height: 5.0;
+  padding-right: 10px;
+}
+
+
+
+footer{
+  background-color: var(--primary-color);
+  text-align: center;
+  margin-top: 100px;
+}
+
+
