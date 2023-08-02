@@ -1,5 +1,4 @@
 @import url(global.css);
-
 .menu_item {
   text-decoration: none;
   font-weight: 700;
@@ -9,7 +8,6 @@
   margin-top: 8px;
   padding: 8px 26px;
 }
-
 .button {
   border: none;
   border-radius: 5px;
@@ -23,14 +21,12 @@
   overflow: hidden;
   outline: 2px solid #2c9caf;
 }
-
 .button:hover {
   color: #ffffff;
   transform: scale(1.1);
   outline: 2px solid #70bdca;
   box-shadow: 4px 5px 17px -4px #268391;
 }
-
 .button::before {
   content: "";
   position: absolute;
@@ -43,11 +39,9 @@
   z-index: -1;
   transition: width 1000ms;
 }
-
 .button:hover::before {
   width: 250%;
 }
-
 .header_container {
   display: flex;
   align-items: center;
@@ -55,7 +49,6 @@
   flex-direction: column;
   margin-top: 24px;
 }
-
 .header {
   position: relative;
   margin-top: 0px;
@@ -63,7 +56,6 @@
   background: linear-gradient(-45deg, #56125b, #0f0f10, #271e6e);
   animation: 10s ease infinite alternate;
 }
-
 .header::after {
   display: flex;
   content: "";
@@ -73,14 +65,12 @@
   bottom: 0;
   background: linear-gradient(0deg, var(--primary-color), transparent);
 }
-
 .header_channel {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .title {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
@@ -88,18 +78,15 @@
   font-size: 40px;
   margin-top: 40px;
 }
-
 .header_title--light {
   display: block;
   font-weight: lighter;
   font-weight: bold;
   color: aqua;
 }
-
 .price {
   font-size: 28px;
 }
-
 .title_text {
   font-size: 28px;
   display: flex;
@@ -109,12 +96,10 @@
   margin-top: 40px;
   font-family: 'Quicksand', sans-serif;
 }
-
 .price_ {
   font-size: 60px;
   font-weight: bold;
 }
-
 .button2 {
   padding: 8px 26px;
   border: none;
@@ -129,14 +114,12 @@
   overflow: hidden;
   outline: 2px solid #2c9caf;
 }
-
 .button2:hover {
   color: #ffffff;
   transform: scale(1.1);
   outline: 2px solid #70bdca;
   box-shadow: 4px 5px 17px -4px #268391;
 }
-
 .button2::before {
   content: "";
   position: absolute;
@@ -149,27 +132,22 @@
   z-index: -1;
   transition: width 1000ms;
 }
-
 .button2:hover::before {
   width: 250%;
 }
-
 .title_text_ {
   margin-top: 40px;
   font-size: 15px;
 }
-
 .container_cards {
   display: flex;
   justify-content: center;
 }
-
 .section_title {
   text-align: center;
   font-size: 23px;
   margin-bottom: 22px;
 }
-
 .plan_card {
   background: rgb(255, 0, 179);
   background: linear-gradient(137deg, rgb(255, 0, 179) 0%, rgba(0, 212, 255, 1) 100%);
@@ -179,29 +157,24 @@
   margin-left: 24px;
   padding-left: 35px;
 }
-
 .plan_card:hover {
   filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 1));
 }
-
 .card_title {
   display: inline-flex;
   font: 2000px;
 }
-
 .card_price {
   position: relative;
   display: inline-flex;
   margin-left: 222px;
 }
-
 .card_price span {
   color: var(--secondary-color);
   font-size: 34px;
   font: bold;
   font-family: 'Raleway', sans-serif;
 }
-
 .btn_ {
   display: inline-flex;
   margin-bottom: 22px;
@@ -221,32 +194,26 @@
   box-shadow: 0px 0px 60px #1f4c65;
   -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
 }
-
 .btn_:active {
   scale: 0.92;
 }
-
 .btn_:hover {
   background: rgb(2, 29, 78);
   background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
   color: rgb(4, 4, 38);
 }
-
 .btn_ {
   margin-left: 50px;
   margin-top: 100px;
 }
-
 .btn__ {
   position: absolute;
   bottom: 0px;
 }
-
 .footer_container {
   position: relative;
   top: 24px;
 }
-
 .footer_link {
   text-decoration: none;
   margin-left: 24px;
@@ -254,12 +221,10 @@
   color: var(--link-color);
   position: relative;
 }
-
 .card_footer {
   display: inline-flex;
   background-color: #020228;
 }
-
 /* for all social containers */
 .socialContainer {
   width: 52px;
@@ -290,16 +255,13 @@
   background-color: #f2F2;
   transition-duration: .3s;
 }
-
 .socialContainer:active {
   transform: scale(0.9);
   transition-duration: .3s;
 }
-
 .socialContainer:hover .socialPng {
   animation: slide-in-top 0.3s both;
 }
-
 @keyframes slide-in-top {
   0% {
     transform: translateY(-50px);
@@ -310,92 +272,65 @@
     opacity: 1;
   }
 }
-
 .btn_ {
   background-color: #020228;
 }
-
 .img-box img.img-hover {
   display: none;
 }
-
 .img-box:hover img.img-default {
   display: none;
 }
-
 .img-box:hover img.img-hover {
   display: inherit;
 }
-
 /* Responsive styles for screens smaller than 768px */
 @media (max-width: 768px) {
   .header {
     padding: 100px 0 150px;
   }
-
   .header::after {
     height: 150px;
   }
-
   .title {
     font-size: 30px;
   }
-
   .price {
     font-size: 20px;
   }
-
   .title_text {
     font-size: 20px;
   }
-
   .price_ {
     font-size: 40px;
   }
-
   .button2 {
     font-size: 15px;
   }
-
   .title_text_ {
     font-size: 14px;
   }
-
   .section_title {
     font-size: 18px;
   }
-
   .card_title {
     font-size: 18px;
   }
-
   .card_price {
     margin-left: 50px;
   }
-
   .card_price span {
     font-size: 24px;
   }
-
   .btn_ {
     font-size: 1rem;
     padding: 0.8rem 1.5rem;
     margin-bottom: 10px;
     margin-top: 80px;
   }
-
   .container_cards{
     display: grid;
     height: 1000px;
     gap: 22px
   }
-
-  
-
-  
-
 }
-
-
-
-
